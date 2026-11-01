@@ -21,7 +21,7 @@ agent, with JWT auth, OTP verification, Redis rate limiting, and PostgreSQL.
 
 ### Install
 ```bash
-git clone https://github.com/<you>/ai_backend.git
+git clone https://github.com/norouzipouya05-sketch/AI_APP.git
 cd ai_backend
 python -m venv .venv
 # Windows
@@ -29,3 +29,4 @@ python -m venv .venv
 # Linux/macOS
 source .venv/bin/activate
 pip install -r requirements.txt
+# AI_APP
