@@ -1,7 +1,8 @@
 # 🤖 AI Backend — FastAPI + OpenAI Agent
 
 A production-ready FastAPI backend that proxies user messages to an OpenAI
-agent, with JWT auth, OTP verification, Redis rate limiting, and PostgreSQL.
+agent, with JWT auth, OTP verification, Redis rate limiting, PostgreSQL,
+and Alembic migrations.
 
 ## ✨ Features
 - ⚡ FastAPI (async) with lifespan-managed Redis pool
@@ -10,6 +11,7 @@ agent, with JWT auth, OTP verification, Redis rate limiting, and PostgreSQL.
 - 📱 OTP via SMS (cool-down) and email
 - 🛡️ Per-IP / per-user rate limiting middleware
 - 🗄️ Async PostgreSQL (SQLAlchemy + asyncpg)
+- 🧬 Alembic database migrations
 - ⚙️ Pydantic Settings with `.env`
 
 ## 🚀 Quick Start
@@ -29,4 +31,3 @@ python -m venv .venv
 # Linux/macOS
 source .venv/bin/activate
 pip install -r requirements.txt
-# AI_APP
